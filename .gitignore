@@ -1,0 +1,13 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Node (not used here, but safe)
+node_modules/
