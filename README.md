@@ -17,8 +17,7 @@ A simple, static, frontend-only password manager demo built with HTML, CSS, and 
 - [d.html](d.html): Alternate/simple dashboard example with embedded password generator
 - [password.html](password.html): Standalone password generator
 - [style.css](style.css): General styles (not heavily used by current pages)
- - [main.js](main.js): Unrelated sample script (not used by pages)
- - [site.webmanifest](site.webmanifest): PWA manifest (icons referenced and linked from index)
+- [site.webmanifest](site.webmanifest): PWA manifest (icons referenced and linked from index)
 - [sw.js](sw.js): Minimal service worker for offline caching
 - [404.html](404.html): Friendly GitHub Pages 404 fallback
 - [about.txt](about.txt): Favicon attribution info
@@ -64,7 +63,7 @@ git push -u origin main
 ## Notes
  - Icons (favicons and Android/Apple icons) are present and used by the manifest.
  - Service worker caches core pages and icons for basic offline support; registered from all pages.
- - `main.js` is a sample quiz file not used by the app; safe to keep or remove.
+ - Cache version: bump `CACHE_NAME` in [sw.js](sw.js) when you change assets to force refresh.
  - You can rename or remove [d.html](d.html) if you don't need the alternate dashboard.
 
 ## License
