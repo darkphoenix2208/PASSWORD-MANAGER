@@ -17,7 +17,8 @@ A simple, static, frontend-only password manager demo built with HTML, CSS, and 
 - [d.html](d.html): Alternate/simple dashboard example with embedded password generator
 - [password.html](password.html): Standalone password generator
 - [style.css](style.css): General styles (not heavily used by current pages)
- - [site.webmanifest](site.webmanifest): PWA manifest (icons referenced but not included); not currently linked
+ - [main.js](main.js): Unrelated sample script (not used by pages)
+ - [site.webmanifest](site.webmanifest): PWA manifest (icons referenced and linked from index)
 - [about.txt](about.txt): Favicon attribution info
 
 ## Getting Started (Local)
@@ -59,10 +60,9 @@ git push -u origin main
 ```
 
 ## Notes
-- Manifest icons are not included. If you plan to use the manifest, add your icons and adjust paths in [site.webmanifest](site.webmanifest). The landing page does not link the manifest to avoid 404s.
-- Removed unused `main.js` (quiz sample).
-- You can rename or remove [d.html](d.html) if you don't need the alternate dashboard.
-- Removed missing favicon link from [dashboard.html](dashboard.html).
+ - Icons (favicons and Android/Apple icons) are present and used by the manifest.
+ - `main.js` is a sample quiz file not used by the app; safe to keep or remove.
+ - You can rename or remove [d.html](d.html) if you don't need the alternate dashboard.
 
 ## License
 No license provided. Add one if you plan to open-source or share.
